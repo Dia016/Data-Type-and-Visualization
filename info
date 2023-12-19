@@ -1,0 +1,188 @@
+
+What are data visualizations and why are they important?
+Data visualizations are visual representations of information and data. 
+Data visualizations are the fastest way to condense data and share information with stakeholders.
+For example, consider the following two images. The second image is a data viz of the two highlighted columns (Order Date and Profit).
+
+Data Visualization
+Staring at hundreds, thousands, or millions of rows of data does not help you to understand trends in the data or answer questions for the company. 
+Instead, clear visualizations of the data can lead to immediate insights and raise important questions for the larger team, not to mention save you (the analyst) a lot of time reaching those conclusions.
+In addition, statistics alone are often not enough to paint a full picture.
+Consider Anscombe's Quartet, which consists of four different visualizations, all of which have the same summary statistics 
+(x mean, y mean, x standard deviation, y standard deviation, and correlation.)
+
+
+What are the different types of data visualization goals?
+Explore: As you're initially exploring and analyzing your data, you’ll create data visualizations to better understand what is happening in the data. These visualizations are part of your discovery process and are used to make sense of the large quantity of numbers and text found within datasets.
+Explain: Once you've made discoveries in your data, you’ll want to use data visualizations to help explain your insights to others. These data visualizations can help make large, complicated, or abstract insights easier to understand for your stakeholders. You should almost always use data visualizations to explain your insights.
+Exhibit: This is the type of data visualization that takes on more of an art form and does not always adopt all the general data viz best practices.
+
+What is Tableau Public?
+Tableau Public is a free platform that allows you to create and share data visualizations.
+It is very similar to Tableau Desktop, with the main difference being cost and privacy. 
+Tableau Public is free, but all work that is performed is saved to the Tableau community page.
+
+How does Tableau compare with Excel?
+The primary purpose of Tableau to explore data and create/share data visualizations.
+While it has the ability to perform other tasks, such as manipulate data,
+if a substantial amount of work needs to be done before creating data visualizations,
+then other tools (such as Excel) should be used. Spreadsheet software (e.g., Excel) surpasses Tableau’s capabilities
+when it comes to tasks such as data wrangling and multi-layered calculations.
+
+What are the different areas of the data source page?
+Left pane: Displays the data source that you are connected to along with the tables inside of the data source.
+Canvas: Displays the tables that are to be a part of the analysis.
+Metadata grid: Displays information about the fields from the table(s) in the canvas.
+Data grid: Displays the first 1,000 rows of data in the table(s) in the canvas.
+
+What are the different parts of the data grid?
+(a) Field: A field is a column from your data source. From this point on, table columns will be referred to as fields.
+(b) Field name: Each field has its field name bolded at the top. This is a part of the Tableau header.
+(c) Table name: Each field has the table it belongs to indicated above the field name. This is especially helpful when you're using multiple tables in your canvas.
+(d) Data type: Every field is automatically assigned a data type (e.g., numerical, date, geographical, etc.). You will learn about data types in more detail later in this certificate.
+
+Key Terms
+Analytics: The process of discovering and interpreting meaning from data results.
+           The goal of analytics is to discover patterns and trends that businesses can use to take informed actions.
+Data source: The location and container of the data you choose to access when you use Tableau. 
+             This could be a spreadsheet in Microsoft Excel/Google Sheets, a text file, or a PDF, among other formats.
+Data visualization (data viz): A visual representation of information and data — also referred to as data viz.
+Dataset: The data itself, which you can manipulate and analyze.
+         It’s essentially a table (like a single sheet in Excel) or a collection of tables (like an Excel workbook with multiple tabs/sheets).
+Insights: The actionable trends and patterns uncovered through data analysis.
+Preprocess: The act of making manipulations to the data to prepare it for analysis.
+Tableau Public: A free platform that allows you to create and share data visualizations
+User interface (UI): The visual layer between the user and the software.
+
+Week 2 Recap
+Key Takeaways
+What is typically involved in preparing data in Tableau?
+Renaming fields
+Hiding fields
+Pivoting fields
+Updating data types
+Splitting fields
+
+What are some of the common types of dirty data?
+Invalid values: E.g., negative values in an Age field
+Incorrect values: E.g., outdated information
+Inconsistent data: E.g., “Monday,” “monday,” “Mon,” and “M” in a Day of Week field
+Inconsistent data types: E.g., “8” (numerical) and “eight” (text) listed in an Hours Slept field
+Duplicate values: E.g., multiple votes from the same person
+Missing/incomplete values: E.g., first names in a Full Name field
+
+How are data fields classified in Tableau?
+Fields are automatically classified as discrete or continuous. 
+Discrete: Individually separate and distinct. When a discrete field is plotted, there are gaps between each point of data — 
+          signifying that each point of data is separate from the whole. Discrete fields are blue. 
+Continuous: Forming an unbroken whole; without interruption. When a continuous field is plotted on a line graph, the line is unbroken.
+            Continuous fields are green.
+
+
+What are the different data types in Tableau?
+String (text): Can include letters, symbols, and numbers
+Date: E.g., 2/11/2005
+Date & Time: E.g., 2/11/2005 11:45:00 AM
+Numerical: Numbers only, with or without a decimal
+Boolean: Values that are either "True" or "False"
+Geographic: Countries, zip codes, etc.
+
+Does Tableau automatically assign a data type to each field?
+Yes, but each field should be carefully checked since data types can be incorrectly assigned. 
+For example, if you have a field of zip codes, Tableau may process that field as a numerical data type when it should instead be geographic.
+
+Key Terms
+Calculated field: A new field created by manipulating existing fields using mathematical operators (symbols) and/or Tableau’s built-in functions.
+Complex values: Two or more standalone values that are concatenated, or added together.
+Continuous: Forming an unbroken whole; without interruption.
+Data type: A classification of a data point or a collection of data points.
+Dirty data: Data that contains erroneous information.
+Discrete: Individually separate and distinct.
+Null: A missing value.
+Pivot: When two or more fields are stacked together into a single field.
+Raw data: Data that has not been processed for use.
+                      It’s the place where a user can give commands for the software program to execute
+                      and is what you (the user) see and what allows you to interact with the software.
+
+#######################################################################################################################################################################################################
+What are data visualizations and why are they important?
+Data visualizations are visual representations of information and data. 
+They are the fastest way to condense data and share information with stakeholders.
+
+What are the different types of data visualization goals?
+Explore: As you're initially exploring and analyzing your data, you’ll create data visualizations to better understand what is happening in the data.
+         These visualizations are part of your discovery process and are used to make sense of the large quantity of numbers and text found within datasets.
+Explain: Once you've made discoveries in your data, you’ll want to use data visualizations to help explain your insights to others.
+         These data visualizations can help make large, complicated, or abstract insights easier to understand for your stakeholders.
+         You should almost always use data visualizations to explain your insights.
+Exhibit: This is the type of data visualization that takes on more of an art form and does not always adopt all the general data viz best practices.
+         Many times with this type of data viz, the design is prioritized over the clarity/simplicity around communicating insights.
+
+What is Tableau Public?
+Tableau Public is a free platform that allows you to create and share data visualizations. 
+It is very similar to Tableau Desktop, with the main difference being cost and privacy. 
+Tableau Public is free, but all work that is performed is saved to the Tableau community page.
+
+How does Tableau compare with Excel?
+The primary purpose of Tableau is for exploring data and creating/sharing data visualizations. 
+While it has the ability to perform other tasks, such as manipulating data, 
+if a substantial amount of work needs to be done before creating data visualizations, then other tools, such as Excel, 
+should be used. Spreadsheet software (e.g., Excel) surpasses Tableau’s capabilities when it comes to things tasks such as data wrangling 
+and multi-layered calculations.
+
+What is typically involved in preparing data in Tableau?
+Renaming fields
+Hiding fields
+Pivoting fields
+Updating data types
+Splitting fields
+
+What are some of the common types of dirty data?
+Invalid values: E.g., negative values in an Age field
+Incorrect values: E.g., outdated information
+Inconsistent data: E.g., “Monday,” “monday,” “Mon,” and “M” in a Day of Week field
+Inconsistent data types: E.g., “8” (numerical) and “eight” (text) listed in an Hours Slept field
+Duplicate values: E.g., multiple votes from the same person
+Missing/Incomplete values: E.g., first names in a Full Name field
+
+How are data fields classified in Tableau?
+Fields are automatically classified as discrete or continuous. 
+Discrete: Individually separate and distinct. When a discrete field is plotted, there are gaps between each point of data —
+signifying that each point of data is separate from the whole. Discrete fields are blue. 
+Continuous: Forming an unbroken whole; without interruption. When a continuous field is plotted on a line graph, the line is unbroken. Continuous fields are green.
+
+What are the different data types in Tableau?
+String (text): Can include letters, symbols, and numbers
+Date: E.g., 2/11/2005
+Date & Time: E.g., 2/11/2005 11:45:00 AM
+Numerical: Numbers only, with or without a decimal
+Boolean: Values that are either "True" or "False"
+Geographic: Countries, zip codes, etc.
+Does Tableau automatically assign a data type to each field?
+Yes, but each field should be carefully checked since data types can be incorrectly assigned. For example, 
+if you have a field of zip codes, Tableau may process that field as a numerical data type when it should instead be geographic.
+
+What is the difference between a data source and a Tableau data source?
+A data source is the location and container of the data you choose to access when you use Tableau.
+This could be a spreadsheet in Excel/Google Sheets, a text file, or a PDF, among other file types. 
+Data sources can hold multiple tables or sheets of data.
+A Tableau data source is the link between Tableau and the data. The Tableau data source contains any edits, connections, joins, 
+and other manipulations you have made to the data source in Tableau.
+In the data source page of Tableau, the data source information can be found in the left pane
+and the Tableau data source is found on the right side, within the canvas, metadata grid, and data grid.
+
+What is the difference between joins, unions, and relationships?
+A join is a horizontal connection between two or more tables. When joining tables,
+there must be at least one common field with shared values between the tables.
+A union is a vertical connection between two tables. For a union to happen properly, the fields within both tables must match.
+A relationship does not physically connect tables, unlike joins and unions. 
+Instead, Tableau describes a relationship as a "contract" between tables. 
+They are similar to joins, but Tableau will automatically select the join type based on the fields used in the visualization.
+What is the difference between cross-database joins and data blends?
+Cross-database joins connect multiple data sources within a single Tableau data source.
+Data blends combine multiple Tableau data sources.
+The major difference is when aggregation occurs. Data blends aggregate before combining, whereas joins combine and then aggregate.
+
+What are extracts?
+Extracts are specified portions of a data source, frozen in time and saved on your local computer.
+When it comes to workbook performance, extracts are one of the most impactful optimization techniques.
